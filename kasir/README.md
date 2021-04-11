@@ -1,4 +1,4 @@
-## Install terlebih dahulu module yang ada di [requirements.txt](https://github.com/robisetiapermadi/source-code-mapel-saas/kasir/requirements.txt) sebelum menjalankan programnya !!
+## Install terlebih dahulu module yang ada di [requirements.txt](https://github.com/robisetiapermadi/source-code-mapel-saas/blob/master/kasir/requirements.txt) sebelum menjalankan programnya !!
 
 Cara install module menggunakan perintah : 
 ```

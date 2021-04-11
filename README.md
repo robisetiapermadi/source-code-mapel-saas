@@ -3,4 +3,4 @@
 Nama : Robi Setia Permadi
 
 ## Daftar isi
-- [Program Kasir](https://github.com/robisetiapermadi/source-code-mapel-saas/kasir/main.py)
+- [Program Kasir](https://github.com/robisetiapermadi/source-code-mapel-saas/tree/master/kasir)
