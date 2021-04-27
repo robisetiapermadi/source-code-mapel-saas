@@ -99,13 +99,14 @@ def pembayaran(yang_harus_dibayar):
 			print("Yang harus dibayar : {}".format(yang_harus_dibayar))
 			print('Isi dengan angka Bulat !!')
 
+
 # Deklarasi barang yang dijual
-barang = [ {"nama" : "Tenda","kode" : "a","harga": 35000},
-		   {"nama" : "Sleeping Bag","kode" : "b","harga": 7000},
-		   {"nama" : "Carier","kode" : "c","harga": 15000},
-		   {"nama" : "Headlamp","kode" : "d","harga": 5000},
-		   {"nama" : "Matras","kode" : "e","harga": 3000}
-		 ]
+barang = [{"nama": "Tenda", "kode": "a", "harga": 35000},
+          {"nama": "Sleeping Bag", "kode": "b", "harga": 7000},
+          {"nama": "Carier", "kode": "c", "harga": 15000},
+          {"nama": "Headlamp", "kode": "d", "harga": 5000},
+          {"nama": "Matras", "kode": "e", "harga": 3000}
+]
 
 tampilBarang(barang)
 sewa, total = hitung(pilihBarang())
