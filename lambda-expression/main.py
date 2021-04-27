@@ -17,6 +17,6 @@ print(list(hasil))
 # impolementasi fungsi reduce() untuk menjumlahkan semua elemen pada list
 from functools import reduce
 
-numbers = [0,1,2,3,4]
+numbers = [0,1,2,3,4,5]
 
 print(reduce(lambda x,y: x+y, numbers))
