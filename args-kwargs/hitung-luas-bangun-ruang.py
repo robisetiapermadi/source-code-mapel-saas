@@ -6,11 +6,9 @@ def hitung_luas_bangun_datar(jenis, **kwargs):
   elif jenis=="persegi":
     if kwargs['sisi']:
       return float((kwargs['sisi']*kwargs['sisi']))
-    print("TypeError: missing required argument 'sisi' if first argument is 'persegi'")
   elif jenis=="persegi_panjang":
     if kwargs['panjang'] and kwargs['lebar']:
       return float((kwargs['panjang']*kwargs['lebar']))
-    print("TypeError: missing required arguments 'panjang' and 'lebar' if first argument is 'persegi_panjang'")
 
 
 # contoh menghitung luas segitiga
