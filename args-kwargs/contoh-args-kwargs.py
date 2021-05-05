@@ -1,11 +1,13 @@
-""" # pembuatan fungsi
+# pembuatan fungsi
 def panggil(*nama):
   print("daftar orang yang dipanggil : ")
   for orang in nama:
     print(orang)  
 
 # pemanggilan fungsi 
-panggil("dian", "deni", "robi")
+panggil("robi", "setia", "permadi")
+
+
 
 # tanpa *args
 def colek(nama1, nama2, nama3):
@@ -22,9 +24,9 @@ def kirim_sms(*nomer):
 def tulis_sms(**isi):
   print(isi)
   
-kirim_sms(123,888,4444)
+#kirim_sms(123,888,4444)
 
-tulis_sms(tujuan=123, pesan="apa kabar")
+#tulis_sms(tujuan=123, pesan="apa kabar")
 
 
 # cara lain memanggil fungsi yang memakai argumen *args atau *kwargs
@@ -42,6 +44,6 @@ def rata_rata(*data):
   nilai_rata_rata = float(jumlah_data) / float(banyak_data)
   return nilai_rata_rata
 
-print(rata_rata(2,4,1,2,4,1,2,3,4,5,1,8,2)) """
+print(rata_rata(2,4,1,2,4,1,2,3,4,5,1,8,2))
 
 
